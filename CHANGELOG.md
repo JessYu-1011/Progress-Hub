@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0 — 2026-11-24
+- New `sync-all` skill + `sync-all.sh`: re-sync every registered project at once (Claude Code projects resume their latest session headlessly via `claude -c -p`; others listed for manual sync).
+- `sync-progress` registers each project in `~/.progress-hub/projects.tsv`.
+
 ## 0.5.0 — 2026-11-24
 - Project files get a `## Links` section: sync-progress collects artifact, doc, repo, and file links from the session; status and plan-session surface them.
 

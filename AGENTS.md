@@ -8,4 +8,6 @@ Contract shared with the daily-brief scheduled task — keep stable, or update t
 - Calendar Inbox line: `- Title | YYYY-MM-DD HH:mm (or all-day) | duration | notes`
 - Project file: `Last synced:` and `Agent:` lines; sections Goal, Current Status, Next Steps, Open Questions / Blockers, Links (`- Title — URL or path (type, updated YYYY-MM-DD)`), History
 
+Local registry (written by sync-progress, read by sync-all): `~/.progress-hub/projects.tsv`, tab-separated `name  path  agent  last_synced`, path `-` when there is no local folder.
+
 When changing behavior: bump `version` in `.claude-plugin/plugin.json` and add a CHANGELOG entry.
