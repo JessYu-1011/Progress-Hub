@@ -1,5 +1,5 @@
 {
   "name": "progress-hub",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Personal progress hub for any AI agent: sync session progress, add plans, and check status across projects via a shared Google Drive folder."
 }

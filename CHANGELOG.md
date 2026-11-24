@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.0 — 2026-11-24
+- sync-progress aligns Next Steps with the agreed plan in plans.md instead of keeping its own older schedule.
+- Cloud sessions (web/desktop chat, Cowork, cloud Claude Code) no longer register in projects.tsv, since sync-all cannot reach them.
+
 ## 0.6.0 — 2026-11-24
 - New `sync-all` skill + `sync-all.sh`: re-sync every registered project at once (Claude Code projects resume their latest session headlessly via `claude -c -p`; others listed for manual sync).
 - `sync-progress` registers each project in `~/.progress-hub/projects.tsv`.
