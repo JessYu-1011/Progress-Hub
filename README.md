@@ -12,7 +12,7 @@ progress-hub/            (Google Drive, synced locally by Google Drive for deskt
 
 | Skill | What it does |
 |---|---|
-| `sync-progress` | Summarize this session's progress into `projects/<project>.md`, with compressed history |
+| `sync-progress` | Summarize this session's progress into `projects/<project>.md`, with compressed history. Runs automatically after meaningful work or when you wrap up |
 | `add-plan` | Add a goal, to-do, or dated event to `plans.md` |
 | `progress-status` | Overview of all projects and plans |
 | `sync-all` | Re-sync all registered projects at once (`skills/sync-all/sync-all.sh`) |

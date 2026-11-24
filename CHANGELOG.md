@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.8.0 — 2026-11-24
+- Auto-sync: sync-progress runs on its own after a meaningful chunk of work or when the user wraps up, with a one-line report.
+- First sync in a project adds an auto-sync line to the project's AGENTS.md/CLAUDE.md (or tells the user what to paste into chat-project instructions).
+
 ## 0.7.0 — 2026-11-24
 - sync-progress aligns Next Steps with the agreed plan in plans.md instead of keeping its own older schedule.
 - Cloud sessions (web/desktop chat, Cowork, cloud Claude Code) no longer register in projects.tsv, since sync-all cannot reach them.

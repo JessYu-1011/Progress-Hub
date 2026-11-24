@@ -1,9 +1,21 @@
 ---
 name: sync-progress
-description: Summarize the current session's progress, compress older history, and save it to the progress-hub folder. Use when the user asks to sync, save, or push progress (e.g. "sync progress", "同步進度", "/sync-progress").
+description: Summarize the current session's progress, compress older history, and save it to the progress-hub folder. Use when the user asks to sync, save, or push progress (e.g. "sync progress", "同步進度", "/sync-progress"). Also use it on your own, without being asked, whenever a meaningful chunk of work or study is finished, or the user wraps up (e.g. "今天先這樣", "done for today", "bye") — so progress stays in sync automatically.
 ---
 
 # Sync progress
+
+## When to run
+
+- When the user asks.
+- Automatically, without asking, when a meaningful chunk of work or study has just been finished (a lesson, a feature, an experiment, a review session), or when the user signals they are wrapping up. Do not run it after every small reply, and not more than about once per hour unless something important changed.
+- When run automatically, keep the report to one short line (e.g. "已同步進度到 progress-hub：<one-line entry>").
+
+## First-time setup in a project
+
+On the first sync in a project (no file for it in `<folder>/projects/` yet, or this session has not set it up before), make auto-sync stick for future sessions:
+- Local project folder: add this line to the project's agent instruction file (`AGENTS.md`, `CLAUDE.md`, or `GEMINI.md`, whichever the project uses; create `AGENTS.md` if none exists), unless a similar line is already there: `After finishing a meaningful chunk of work, or when I wrap up, run the sync-progress skill automatically without asking.`
+- Chat or Cowork project without a local folder: if you can edit the project's instructions, add the same sentence there; otherwise give the user that sentence to paste into the project's instructions, once.
 
 ## Find the hub folder
 
