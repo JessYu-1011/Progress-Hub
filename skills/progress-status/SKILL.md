@@ -15,8 +15,8 @@ description: Show the latest progress of all projects and current plans from the
 ## Report
 
 1. Read every file in `<folder>/projects/` and `<folder>/plans.md`. Read only; change nothing.
-2. If I asked something specific or named a project, answer just that. Otherwise give a short overview:
-   - Each project: one line of current status and next step, plus when and by which agent it was last synced (flag anything not synced for over 7 days).
+2. If I asked something specific or named a project, answer just that, and give the matching links from `## Links` when I ask for a note, artifact, or file. Otherwise give a short overview:
+   - Each project: one line of current status and next step, plus when and by which agent it was last synced (flag anything not synced for over 7 days). Include the project's most relevant link(s) from its `## Links` section when they help the user act.
    - To-dos due today or overdue, then those due in the next 7 days.
    - Calendar Inbox items not yet moved to the calendar.
    - Long-term goals, one line each.

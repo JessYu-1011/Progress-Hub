@@ -25,9 +25,11 @@ description: Summarize the current session's progress, compress older history, a
    ## Current Status  (latest only; replace the old content)
    ## Next Steps
    ## Open Questions / Blockers
+   ## Links           (things the user may want to open; see step 3)
    ## History
    ```
 
-3. History: add one entry for this sync — the date plus 2–4 lines on what was done and what was decided. Compress: keep the 5 most recent entries as they are; merge older entries into one line per week; merge anything older than a month into one line per month. Keep the whole file under 150 lines.
-4. Record conclusions and decisions only. No code, no full conversation, never passwords, keys, or tokens.
-5. Report the file path and the entry added this time.
+3. Links: list artifacts, documents, notes, repos, PRs, dashboards, or files that this session created, edited, or relied on, so other agents and the daily brief can hand them straight to the user. Look through the conversation for URLs (claude.ai artifact or doc links, Google Drive/Docs links, GitHub repo/PR links, published pages) and important local file paths. Format each as `- <Title> — <URL or path> (<type>, updated YYYY-MM-DD)`, e.g. `- Ch 19 notes — https://claude.ai/artifact/... (artifact, updated 2026-11-24)`. Keep existing links that are still relevant, update changed ones, drop obsolete ones; at most ~15, most useful first. Never include links that embed secrets or access tokens. If there are none, write `- (none)`.
+4. History: add one entry for this sync — the date plus 2–4 lines on what was done and what was decided. Compress: keep the 5 most recent entries as they are; merge older entries into one line per week; merge anything older than a month into one line per month. Keep the whole file under 150 lines.
+5. Record conclusions and decisions only. No code, no full conversation, never passwords, keys, or tokens.
+6. Report the file path and the entry added this time.

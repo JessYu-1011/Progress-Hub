@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.5.0 — 2026-11-24
+- Project files get a `## Links` section: sync-progress collects artifact, doc, repo, and file links from the session; status and plan-session surface them.
+
 ## 0.4.0 — 2026-11-24
 - New `plan-session` skill: interactive planning for exams, learning goals, and deadlines; saves the agreed plan.
 - Long-term goals may have indented milestone sub-items.

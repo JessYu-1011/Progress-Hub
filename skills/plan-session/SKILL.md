@@ -20,7 +20,7 @@ Read `<folder>/plans.md` and every file in `<folder>/projects/`. If a calendar t
 
 ## 2. Summarize the current picture
 
-In a few lines: active goals, upcoming exams/deadlines (soonest first, with days remaining), each project's status and next step, and anything overdue or stale (project not synced for 7+ days).
+In a few lines: active goals, upcoming exams/deadlines (soonest first, with days remaining), each project's status and next step (with its key links from `## Links`, so the user can open the material), and anything overdue or stale (project not synced for 7+ days).
 
 ## 3. Fill the gaps — ask, don't assume
 
@@ -34,6 +34,7 @@ Ask only what is missing, a few questions at a time, for example:
 
 - Work backwards from each deadline. Put the most study time where the exam is soonest × confidence is lowest.
 - Exams: split into topics; schedule first pass, practice/past papers, and a final review 1–2 days before. Space repetitions; avoid cramming everything into the last day.
+- Point study blocks to the material in each project's `## Links` (notes, artifacts, past exams) where relevant.
 - Learning for projects: break into milestones with a small hands-on output each (e.g. "build a toy example of X"), tied to the project's Next Steps.
 - Leave buffer (~20%) and at least one lighter day per week. Do not exceed the stated capacity.
 - Show the plan as a compact week-by-week (or day-by-day for the next 7 days) table, and call out trade-offs or anything that doesn't fit.

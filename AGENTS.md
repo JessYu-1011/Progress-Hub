@@ -6,6 +6,6 @@ Contract shared with the daily-brief scheduled task — keep stable, or update t
 - Folder: Google Drive `progress-hub/` with `plans.md` and `projects/<project>.md`
 - `plans.md` sections: Long-term Goals (milestones as indented `  - [ ]` sub-items), Short-term To-dos, Calendar Inbox, Done
 - Calendar Inbox line: `- Title | YYYY-MM-DD HH:mm (or all-day) | duration | notes`
-- Project file: `Last synced:` and `Agent:` lines; sections Goal, Current Status, Next Steps, Open Questions / Blockers, History
+- Project file: `Last synced:` and `Agent:` lines; sections Goal, Current Status, Next Steps, Open Questions / Blockers, Links (`- Title — URL or path (type, updated YYYY-MM-DD)`), History
 
 When changing behavior: bump `version` in `.claude-plugin/plugin.json` and add a CHANGELOG entry.
