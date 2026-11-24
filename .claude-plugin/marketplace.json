@@ -1,0 +1,7 @@
+{
+  "name": "progress-hub",
+  "owner": { "name": "JessYu-1011" },
+  "plugins": [
+    { "name": "progress-hub", "source": "./", "description": "Personal progress hub for any AI agent: sync session progress, add plans, and check status across projects via a shared Google Drive folder." }
+  ]
+}
